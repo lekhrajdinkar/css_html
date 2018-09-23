@@ -1,20 +1,44 @@
+/*1. Clear browser defaults. */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/*2. Set background-color, color, etc for entire app */
 body {
     background-color: #fff;
     color: #555;
     font-family: 'Lato', 'Arial', sans-serif;
-    font-weight: 300;
+    font-weight: 200;
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
 
-/*Create row class*/
+/* 3. Create row class*/
 .row {
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 0 auto ; 
+}
+
+/* 4. add bkg image with 100% height*/
+header {
+    background-image: linear-gradient(rgba(28, 25, 25, 0.85), rgba(28, 25, 25, 0.85)), url(img2/header-bg-2.jpg);
+    background-position: center; background-size: cover;
+    height: 100vh;
+/*    The vh unit can be used to fill the background of the viewport*/
+}
+
+/*  5. Becoz of normalized.css, h1 got margin and white space. lets fix it by this.*/
+h1 {
+    margin: 0;
+}
+
+.ui-tech-test-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    
+    
 }

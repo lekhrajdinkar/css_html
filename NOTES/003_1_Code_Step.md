@@ -41,15 +41,37 @@ body {
 
 1. it means it should work in any device of any resolution, without zoom-in and out.
 2. it should get changed automatically as per browser size.
-3. 50 % of moble traffic is of Mobile users, as per google; Increase in future. hence mobile friendly designed must be embraced.
+3. 50 % of moble traffic is of Mobile users, as per google; Increase in future. hence emracing mobile friendly design.
 4. Three ingredient for responsive website:
 
 ![](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES/assets/n1.PNG)
 
 5. go : http://www.responsivegridsystem.com/ 
 and generate css file. everything is already compiled in sinle file - `./vendor/css/grid.css`
-Note : Will Check later how grid works. ![here. blank now.]()
+Note : Will Check later how grid works.
 
-6. 
+#### Add Header - part-1
+1. `<Header class="ui-tech-test-box">`
+- Horizontally center container
+- It may contain some heading elements but also other elements like a logo, a search form, an author name, and so on.
+
+2. Add image in viewport, Blur image with black
+```
+header {
+    background-image: linear-gradient(rgba(28, 25, 25, 0.85), rgba(28, 25, 25, 0.85)), url(img2/header-bg-2.jpg);
+    background-position: center; background-size: cover;
+    height: 100vh;  /* The vh unit can be used to fill the background of the viewport */
+}
+```
+
+3. Set `<header>` in center:
+```
+.ui-tech-test-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);  
+}
+```
 
 
