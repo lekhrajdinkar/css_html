@@ -31,14 +31,34 @@ header {
 
 /*  5. Becoz of normalized.css, h1 got margin and white space. lets fix it by this.*/
 h1 {
-    margin: 0;
+    margin: 0; 
+    color: #fff ; font-size: 200% ; /* 6.1 body:20px, hence 40px */
+    font-weight: 100;  /* 6.2 thickness */
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 20px;
 }
 
 .ui-tech-test-box {
     position: absolute;
     width: 1140px;
     top: 50%; left: 50%;
-    transform: translate(-50%,-50%);
-    
-    
+    transform: translate(-50%,-50%);  
+}
+
+.btn {
+    display: inline-block; padding: 20px 40px;   font-weight: 300;
+    text-decoration: none;
+    border-radius: 50px;    
+    color: #fff;
+}
+
+.btn-lime {
+    color: #e74c3c; 
+    border: 2px solid #e74c3c;
+}
+
+.btn-tan {
+    background-color: #009688;
+    border: 2px solid ##2ecc71;
 }

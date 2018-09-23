@@ -81,4 +81,41 @@ outPut:
 
 #### 5. Add Header - part-2
 
+1. Improvement 1:
+```
+header {
+...
+color: #fff ; font-size: 200% ; /* 6.1 body:20px, hence 40px */
+font-weight: 100;  /* 6.2 thickness */
+text-transform: uppercase;
+letter-spacing: 1px;
+word-spacing: 20px;
+}
+```
 
+2. buttons ans style:
+```
+template:
+
+<a href="#" class="btn btn-lime"> Learn UI technologies</a>
+<a href="#" class="btn btn-tan"> Show More</a>
+ 
+Style:
+
+.btn {
+    display: inline-block; padding: 20px 40px;   font-weight: 300;
+    text-decoration: none;
+    border-radius: 50px;    
+    color: #fff;
+}
+
+.btn-lime {
+    color: #e74c3c; 
+    border: 2px solid #e74c3c;
+}
+
+.btn-tan {
+    background-color: #009688;
+    border: 2px solid ##2ecc71;
+}
+```
