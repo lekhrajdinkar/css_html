@@ -148,3 +148,53 @@ outPut:
     transition: background-color 2.5s, border 2.5s, color 0.5s ;
 }
 ```
+5. Add logo and nav bar
+```
+template :
+
+<nav>
+            <div class="row">
+                <img class="logo" src="resources/img2/logo.PNG">
+                
+                <ul class="main-nav">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Sign up</a></li>
+                    <li><a href="#">sign in</a></li>
+                </ul>
+            </div>
+        </nav>
+        
+Style:
+
+.main-nav {
+    float: right;
+    list-style: none; /**/
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;  /**/
+    margin-left: 40px;
+}
+
+.main-nav li a:link, .main-nav li a:visited {
+    color: #fff;
+    font-size: 70%;
+    border-bottom: 3px solid transparent;
+}
+
+.main-nav li a:hover, .main-nav li a:active {
+    color: #e74c3c;
+    border: 1px solid #fff; 
+    border-bottom: 3px solid #e74c3c;
+    padding: 8px;
+    transition: border-bottom 1.0s;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+```
