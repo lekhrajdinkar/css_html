@@ -12,3 +12,9 @@ body {
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+
+/*Create row class*/
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
