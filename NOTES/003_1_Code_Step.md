@@ -1,6 +1,6 @@
 ### HTML CSS Project
 
-#### Basic
+#### 1. Basic
  `note : JS_L37 onwards`
 1. Create project struture - resource, img, css,etc folders + **index.html** .
 2. add `link` in index.html for normalized.css, app css(style.css), and google font.
@@ -9,7 +9,7 @@
 
 ***
 
-#### Intial styling
+#### 2. Intial styling
 1. Clear browser defaults. 
 ```
 * {
@@ -37,7 +37,7 @@ body {
 
 ***
 
-#### Responsive WEB design.
+#### 3. Responsive WEB design - theory
 
 1. it means it should work in any device of any resolution, without zoom-in and out.
 2. it should get changed automatically as per browser size.
@@ -50,7 +50,9 @@ body {
 and generate css file. everything is already compiled in sinle file - `./vendor/css/grid.css`
 Note : Will Check later how grid works.
 
-#### Add Header - part-1
+***
+
+#### 4. Add Header - part-1
 1. `<Header class="ui-tech-test-box">`
 - Horizontally center container
 - It may contain some heading elements but also other elements like a logo, a search form, an author name, and so on.
@@ -73,5 +75,10 @@ header {
     transform: translate(-50%,-50%);  
 }
 ```
+
+outPut:
+![](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES/assets/header-1.PNG)
+
+#### 5. Add Header - part-2
 
 
