@@ -13,13 +13,13 @@
 - Body text - 15px to 25px
 - line spacing - 150%
 - char lenght per line - 45 to 90 char
-![](https://github.com/lekhrajdinkar/NG6/blob/master/notes/CSS_HTML/assets/font-1.PNG)
+![](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES/assets/font-1.PNG)
 
 ### 2. color
 1. Pick one base color for entire website.
 2. Never use Black.
 
-![](https://github.com/lekhrajdinkar/NG6/blob/master/notes/CSS_HTML/assets/col-1.PNG)
+![](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES/assets/col-1.PNG)
 
 3. _**Red**_ is a great color to use when power, passion,strength and excitement want to be transmitted
 4. _**Orange**_ draws attention without being as overpowering as red.
@@ -29,9 +29,9 @@
 
 ### 3. Images
 1. Overlay the image with color and use text on top of it.
-![](https://github.com/lekhrajdinkar/NG6/blob/master/notes/CSS_HTML/assets/img-1.PNG)
+![](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES/assets/img-1.PNG)
 2. put text in box while displaying it over image.
-![](https://github.com/lekhrajdinkar/NG6/blob/master/notes/CSS_HTML/assets/img-2.PNG)
+![](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES/assets/img-2.PNG)
 3. blur the image.
 4. Floor Fade -> Image fades to dark near text(text is brighter).
 
@@ -50,7 +50,7 @@
 Type:
 1. presentation of product in site
 2. presentation of User **experience** - its not linked with design and look of product, but how used interacts. input.
-![](https://github.com/lekhrajdinkar/NG6/blob/master/notes/CSS_HTML/assets/wd-1.PNG)
+![](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES/assets/wd-1.PNG)
 
 
 

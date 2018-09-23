@@ -4,7 +4,7 @@
 1. Create project struture - resource, img, css,etc folders + **index.html** .
 2. add `link` in index.html for normalized.css, app css(style.css), and google font.
 
-> <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+> `<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">`
 
 #### Intial styling
 1. Set 
@@ -28,5 +28,5 @@ body {
 }
 ```
 
-text-rendering: optimizeLegibility --> this  will help in perfect rendering.
-font-weight: 300 --> 
+> text-rendering: optimizeLegibility --> this  will help in perfect rendering.
+> font-weight: 300 --> 
