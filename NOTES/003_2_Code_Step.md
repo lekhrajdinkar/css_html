@@ -75,3 +75,25 @@ h3 {
     margin-bottom: 3%;
 }
 ```
+
+4. Icon:
+```
+Style:
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+template:
+ <i class="ion-ios-infinite-outline icon-big"></i>
+ 
+<link rel="stylesheet" type="text/css" href="vendors/css/ionicons.min.css">
+
+```
+
+outPut:
+![](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES/assets/section-2.PNG)
