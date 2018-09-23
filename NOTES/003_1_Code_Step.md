@@ -119,3 +119,5 @@ Style:
     border: 2px solid ##2ecc71;
 }
 ```
+outPut:
+![](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES/assets/header-1.PNG)
