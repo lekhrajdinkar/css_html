@@ -46,19 +46,41 @@ h1 {
     transform: translate(-50%,-50%);  
 }
 
-.btn {
+/* Button --- start */
+.btn:link, 
+.btn:visited {
     display: inline-block; padding: 20px 40px;   font-weight: 300;
     text-decoration: none;
     border-radius: 50px;    
-    color: #fff;
 }
 
-.btn-lime {
+.btn-lime:link, 
+.btn-lime:visited{
     color: #e74c3c; 
     border: 2px solid #e74c3c;
+    margin-right: 40px;
 }
 
-.btn-tan {
-    background-color: #009688;
-    border: 2px solid ##2ecc71;
+.btn-lime:active, 
+.btn-lime:hover{
+    color: #fff; 
+    border: 2px solid #fff;
+    transition: background-color 2.5s, border 2.5s, color 0.5s ;
 }
+
+
+.btn-tan:link, 
+.btn-tan:visited {
+    color: #fff;
+    background-color: #1abc9c;
+    border: 2px solid #2ecc71;
+}
+
+.btn-tan:active,
+.btn-tan:hover {
+    color: #2d3317;
+    background-color: #16a085;
+    border: 2px solid #2d3317;
+    transition: background-color 2.5s, border 2.5s, color 0.5s ;
+}
+/* Button --- end */

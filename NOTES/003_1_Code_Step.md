@@ -121,3 +121,30 @@ Style:
 ```
 outPut:
 ![](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES/assets/header-2.PNG)
+
+3. Add Button style on :
+```
+.btn-tan:link, 
+.btn-tan:visited {
+    color: #fff;
+    background-color: #1abc9c;
+    border: 2px solid #2ecc71;
+}
+
+.btn-tan:active,
+.btn-tan:hover {
+    color: #2d3317;
+    background-color: #16a085;
+    border: 2px solid #2d3317;
+}
+```
+4. Add animation
+```
+.btn-tan:active,
+.btn-tan:hover {
+    color: #2d3317;
+    background-color: #16a085;
+    border: 2px solid #2d3317;
+    transition: background-color 2.5s, border 2.5s, color 0.5s ;
+}
+```
