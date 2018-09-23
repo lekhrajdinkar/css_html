@@ -198,3 +198,5 @@ Style:
     margin-top: 20px;
 }
 ```
+outPut:
+![](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES/assets/header-3.PNG)
