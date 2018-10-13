@@ -6,5 +6,15 @@ file:///C:/Users/lekhrajdinkar/Documents/GitHub/css_html/proj-2/index.html
 1. add nav
 2. make div(logo) and nav(ul > li,li,li) inline-block
 3. Bring nav to right > added but no change because of width.
-4. make width of nav = total width 100% - div logo with + remove space div  and nav elememt.   
+4. make width of nav = total width 100% - div logo with + remove space div  and nav elememt.  
+5. Style brand and navbar item - remove underline, change color and make bold.
+
+***
+```
+text-decoration
+font-weight
+text-align
+font-family
+vertical-align: middle
+```
 
