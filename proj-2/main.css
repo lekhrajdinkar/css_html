@@ -1,36 +1,24 @@
-* {
-    box-sizing: border-box;
-}
+* {    box-sizing: border-box;}
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0px
-}
+body {    font-family: 'Montserrat', sans-serif;    margin: 0px}
 
-#product-overview {
-    background: #ff1b68;
-    height: 500px;
-    margin: 10px
-}
+#product-overview {    background: #ff1b68;    height: 500px;    margin: 10px}
 
-.section-title {
-    color: #2ddf5c;
-}
+.section-title {    color: #2ddf5c;}
 
-#product-overview h1 {
-    color: white;
-    font-family: 'Anton', sans-serif;
-}
+#product-overview h1 {    color: white;    font-family: 'Anton', sans-serif;}
 
-.main-header{
-    background: #2ddf5c;
-    width:100%;
+.main-header > div{display: inline-block;}
 
-}
+.main-nav {display: inline-block; text-align: right; width: calc(100% - 100px)}
 
-.main-nav__item{
-    display: inline-block;
-}
+.main-header{    background: #2ddf5c;    width:100%;}
+
+.main-nav__item{  display: inline-block; }
+
+.main-nav__items{    padding: 0; margin:0; list-style: none;}
+
+
 
 /*  ---------------------------------------------------------------------temp -------------------
 1. height and width, content-model,etc
