@@ -4,17 +4,29 @@
 ***
 
 1. Every html element is interpreted as **box** by CSS.
+
 2. Each element passes these **layers of box** >  content , padding, border, margin(not part of element, space between boxes).
+
 3. **margin collapse:**
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/margin.JPG)
 if we are worry about magin collapsing then use `margin-top` and `margin-bottom`
 [margin collapse more](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
 
 4. **width**
-- Block element : takes will width by default `width :100%` + new line
-- inline element : 
-- block-inline element : 
-- none : will be part of DOM, but non-visible.
+- **Block element** : takes will width by default `width :100%` + new line. 
+> 1. eg : `<div> , <section> , <article> , <nav>, <h1> , <h2>, <p>`
+> 2. They are rendered as a block and hence take up all the available horizontal space.
+> 3. can set margin-top and margin-bottom.
+
+- **inline element** : 
+> 1. Take up the space they require to fit their content in. Hence two inline-elements will fit into the same line
+> 2. margin-top / margin-down : have no effect.
+
+- **block-inline element** : merge both behaviour.
+
+- **none** : will be part of DOM, but non-visible.
+
+[more ]( https://hacks.mozilla.org/2015/03/understanding-inline-box-model/)
 
 5. **Height:**
 
