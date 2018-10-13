@@ -3,18 +3,18 @@
 > ### Topics :  Box Model, height/width, display, commonly used properties, psuedo class and element.
 ***
 
-1. Every html element is interpreted as box by CSS.
-2. Each element passes these layers of box >  content , padding, border, margin(not part of element, space between boxes).
-3. margin collapse:
+1. Every html element is interpreted as **box** by CSS.
+2. Each element passes these **layers of box** >  content , padding, border, margin(not part of element, space between boxes).
+3. **margin collapse:**
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/margin.JPG)
 if we are worry about magin collapsing then use `margin-top` and `margin-bottom`
 [margin collapse more](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
 
-4. width
+4. **width**
 - Block element : takes will width by default `width :100%`
 - inline element
 
-5. Height:
+5. **Height:**
 
 `HTML > body > main > section > h1`
 - height of - body,main,section are calcalated dynamically based on their children.
@@ -24,7 +24,7 @@ if we are worry about magin collapsing then use `margin-top` and `margin-bottom`
 
 - html take the height of full window > delegate this value down to h1 > just keep height: 100% in all element
 
-6. content-model
+6. **content-model**
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/cm1.JPG)
 
 `box-sizing` property --> values : content-box, border-box.
@@ -42,6 +42,9 @@ if  `box-sizing` is border-box -->
 > - actual height = height property( includes padding + border) + margin.
 > - actual Width = height property(includes padding + border ) + margin.
 
+```
+* {box-sizing : border-box }
+```
 ***
 > program :
 - create h1 and added all 3 layers and inpect it dev-tool.
