@@ -41,10 +41,12 @@ if we are worry about magin collapsing then use `margin-top` and `margin-bottom`
 6. **content-model**
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/cm1.JPG)
 
-`box-sizing` property --> values : content-box, border-box.
+`box-sizing` property --> values : `content-box`, `border-box`.
 
 - every element has its own defauly box-sizing mechanism.
-- content-box : height and width properties will apply on content. 
+> `content-box` : height and width will be calculated content.  
+
+> `border-box` : height and width will be calculated content+padding+border.
 
 - browser calculates actual height and width before rendering element.
 
