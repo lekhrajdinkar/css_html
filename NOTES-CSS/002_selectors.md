@@ -2,6 +2,7 @@
 
 ## Types:
 1. **universal** --> * {} = `all tags`.
+- set to all element, overrides browser default, overrides inheritance.
 2. **element** --> h1 {} = `h1 tag only`
 3. **classes** --> .s1{} = `<h1 class=s1>, <p class=s1>, etc`
 - reusable.

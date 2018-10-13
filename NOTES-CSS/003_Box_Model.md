@@ -24,9 +24,28 @@ if we are worry about magin collapsing then use `margin-top` and `margin-bottom`
 
 - html take the height of full window > delegate this value down to h1 > just keep height: 100% in all element
 
+6. content-model
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/cm1.JPG)
+
+`box-sizing` property --> values : content-box, border-box.
+
+- every element has its own defauly box-sizing mechanism.
+- content-box : height and width properties will apply on content. 
+
+- browser calculates actual height and width before rendering element.
+
+if  `box-sizing` is content-box --> 
+> - actual height = height property  + padding + border + margin.
+> - actual Width = height property  + padding + border + margin.
+
+if  `box-sizing` is border-box --> 
+> - actual height = height property( includes padding + border) + margin.
+> - actual Width = height property(includes padding + border ) + margin.
 
 ***
 > program :
 - create h1 and added all 3 layers and inpect it dev-tool.
 - browser default : body has 8px margin. Clear it.
 - h1 adds default top/bottom margin. h1 is block elememt hence take full width. `width :100%` no diff, `width : 50%` can see diff.
+
+
