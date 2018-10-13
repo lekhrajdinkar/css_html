@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     margin: 0px
@@ -5,11 +9,8 @@ body {
 
 #product-overview {
     background: #ff1b68;
-    height: 300px;
-    width: 100%;
-    padding: 10px;
-    border: #2ddf5c solid 5px;
-    margin: 30px
+    height: 500px;
+    margin: 10px
 }
 
 .section-title {
@@ -21,6 +22,25 @@ body {
     font-family: 'Anton', sans-serif;
 }
 
-/* h1 {
-    font-family: sans-serif;
-} */
+.main-header{
+    background: #2ddf5c;
+    width:100%;
+
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+/*  ---------------------------------------------------------------------temp -------------------
+1. height and width, content-model,etc
+#product-overview {
+    background: #ff1b68;
+    height: 300px;
+    width: 100%;
+    padding: 10px;
+    border: #2ddf5c solid 5px;
+    margin: 30px
+}
+
+*/

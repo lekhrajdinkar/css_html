@@ -11,8 +11,10 @@ if we are worry about magin collapsing then use `margin-top` and `margin-bottom`
 [margin collapse more](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Box_Model/Mastering_margin_collapsing)
 
 4. **width**
-- Block element : takes will width by default `width :100%`
-- inline element
+- Block element : takes will width by default `width :100%` + new line
+- inline element : 
+- block-inline element : 
+- none : will be part of DOM, but non-visible.
 
 5. **Height:**
 
