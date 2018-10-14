@@ -18,7 +18,7 @@ file:///C:/Users/lekhrajdinkar/Documents/GitHub/css_html/proj-2/index.html
 3. override properties for recommended plan - different color and bkgrnd.
 4. Added color for price and title.
 5. Overriding the price and title color for recommended plan.
-6. style button.
+6. style button , adding hover effect.
 
 ***
 ```
@@ -33,5 +33,6 @@ list-style: none;
 display: inline-block;
 text-decoration: none;
  background: url("freedom.jpg"); 
+ font: inherit;
 ```
 

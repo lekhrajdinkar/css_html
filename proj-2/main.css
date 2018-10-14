@@ -69,15 +69,15 @@ body {    font-family: 'Montserrat', sans-serif;    margin: 0px}
 .plan--highlighted .plan__price {    color: #0e4f1f;}
 
 .button {
-    background: #0e4f1f;
-    color: white;
-    font: inherit;
-    border: 1.5px solid #0e4f1f;
-    padding: 8px;
-    border-radius: 8px;
-    font-weight: bold;
-    cursor: pointer;
+    background: #0e4f1f;    color: white;    font: inherit;
+    border: 1.5px solid #0e4f1f;    padding: 8px;    border-radius: 8px;
+    font-weight: bold;    cursor: pointer;
 }
+
+.button:hover,
+.button:active {    background: white;    color: #0e4f1f;}
+
+.button:focus {    outline: none;}
 
 /*  ---------------------------------------------------------------------temp -------------------
 1. height and width, content-model,etc
