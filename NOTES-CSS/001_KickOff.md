@@ -40,6 +40,18 @@ CSS Combinators: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction
 
 CSS Specifity: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 
+CSS Box Model: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction_to_CSS/Box_model
+
+box-sizing : https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+
+height & width: https://www.w3schools.com/css/css_dimension.asp
+
+The display Property: https://developer.mozilla.org/en-US/docs/Web/CSS/display
+
+Pseudo Classes : https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+
+Pseudo Elements: https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+
 ## properties worth to remember:
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/p1.JPG)
 
