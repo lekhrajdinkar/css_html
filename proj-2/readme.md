@@ -16,6 +16,9 @@ file:///C:/Users/lekhrajdinkar/Documents/GitHub/css_html/proj-2/index.html
 1. Adding plans 
 2. Style plan and plan features - padding, no bullet, center align, inline-block, font, background,etc.
 3. override properties for recommended plan - different color and bkgrnd.
+4. Added color for price and title.
+5. Overriding the price and title color for recommended plan.
+6. style button.
 
 ***
 ```
