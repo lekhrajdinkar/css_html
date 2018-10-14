@@ -9,6 +9,8 @@ file:///C:/Users/lekhrajdinkar/Documents/GitHub/css_html/proj-2/index.html
 4. make width of nav = total width 100% - div logo with + remove space div  and nav elememt.  
 5. Style brand and navbar item - remove underline, change color and make bold.
 6. Adding Hover and active effect on nav bar element.
+7. add button effect on last nav bar element.
+8. Add background immage for section 1
 
 ***
 ```

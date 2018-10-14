@@ -2,7 +2,7 @@
 
 body {    font-family: 'Montserrat', sans-serif;    margin: 0px}
 
-#product-overview {    background: #ff1b68;    height: 500px;   }
+#product-overview {    background: url("https://upload.wikimedia.org/wikipedia/commons/e/ed/Katrina_Jade.jpg");    height: 500px;   }
 
 .section-title {    color: #2ddf5c;}
 
@@ -18,7 +18,7 @@ body {    font-family: 'Montserrat', sans-serif;    margin: 0px}
 
 .main-nav__item a:active,
 .main-nav__item a:hover
- {  color: azure }
+ {  color: azure; border-bottom: 2px solid white }
 
 .main-nav__items {    list-style: none;  }
 
@@ -27,6 +27,10 @@ body {    font-family: 'Montserrat', sans-serif;    margin: 0px}
 .main-header > div > a { color: darkcyan ; text-decoration: none;}
 .main-header > nav  a { color:black ; text-decoration: none; font-weight: bold}
 
+.main-nav__item-btn1 a {padding: 5px; border : #ff1b68 2px solid;  background: paleturquoise }
+
+.main-nav__item-btn1 a:hover,
+.main-nav__item-btn1 a:active{   border : #ff1b68 2px solid; background: rgb(52, 168, 168) }
 
 
 /*  ---------------------------------------------------------------------temp -------------------

@@ -40,4 +40,7 @@ CSS Combinators: https://developer.mozilla.org/en-US/docs/Learn/CSS/Introduction
 
 CSS Specifity: https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity
 
+## properties worth to remember:
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/p1.JPG)
+
 
