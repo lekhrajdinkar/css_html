@@ -20,6 +20,10 @@ file:///C:/Users/lekhrajdinkar/Documents/GitHub/css_html/proj-2/index.html
 5. Overriding the price and title color for recommended plan.
 6. style button , adding hover effect.
 
+### C. Presenting core feature
+1. Added core feature html.
+2. style title.
+
 ***
 ```
 text-decoration

@@ -32,6 +32,7 @@ body {    font-family: 'Montserrat', sans-serif;    margin: 0px}
 .main-nav__item-btn1 a:hover,
 .main-nav__item-btn1 a:active{   border : #ff1b68 2px solid; background: rgb(52, 168, 168) }
 
+/* ----------------------------------------2 --------------------------------------------------------- */
 /* Style Plan - articel tags in second section*/
 .plan {
     background: #d5ffdc;
@@ -78,6 +79,10 @@ body {    font-family: 'Montserrat', sans-serif;    margin: 0px}
 .button:active {    background: white;    color: #0e4f1f;}
 
 .button:focus {    outline: none;}
+
+/* ----------------------------------------3 --------------------------------------------------------- */
+.key-features{ background: #23849c; padding-bottom: 100px}
+.key-features > .section-title{ color: white}
 
 /*  ---------------------------------------------------------------------temp -------------------
 1. height and width, content-model,etc
