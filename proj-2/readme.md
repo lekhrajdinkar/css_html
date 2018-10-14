@@ -38,5 +38,6 @@ display: inline-block;
 text-decoration: none;
  background: url("freedom.jpg"); 
  font: inherit;
+ margin : auto
 ```
 
