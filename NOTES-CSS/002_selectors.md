@@ -12,6 +12,10 @@
 6. **Combinator** --> multiple selector.
 - eg : `#id1 h1 {}`
 
+7. `a.active` vs `a .active`
+- `a.active` --> it will select anchor with active class.
+- `a .active` --> it will pick all desendant of achoe with class active.
+
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/001.jpg)
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/002.jpg)
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/003.jpg)
@@ -52,6 +56,18 @@ body{ color : black}
 ```
 #id1 h1 {} //1 win
 h1 {} //2
+```
+
+6. `!important` --> override specifity and will always be applied. 
+- eg : div{ color: red !important} --> color would always be red wahtever the order, inheritance ,etc.
+- not preferred to use.
+
+7. `<p c1 c2 > text </p>` --> priority for c1 and c2.
+```
+.c1{ color : red}
+.c2{ color : blue} //win
+
+here order matter 
 ```
 
 ***

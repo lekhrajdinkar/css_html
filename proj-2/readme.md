@@ -12,6 +12,11 @@ file:///C:/Users/lekhrajdinkar/Documents/GitHub/css_html/proj-2/index.html
 7. add button effect on last nav bar element.
 8. Add background immage for section 1
 
+### B. Adding Plans Section
+1. Adding plans 
+2. Style plan and plan features - padding, no bullet, center align, inline-block, font, background,etc.
+3. override properties for recommended plan - different color and bkgrnd.
+
 ***
 ```
 text-decoration
@@ -19,5 +24,11 @@ font-weight
 text-align
 font-family
 vertical-align: middle
+box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+border-radius: 8px;
+list-style: none;
+display: inline-block;
+text-decoration: none;
+ background: url("freedom.jpg"); 
 ```
 

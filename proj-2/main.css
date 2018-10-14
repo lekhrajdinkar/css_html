@@ -2,9 +2,9 @@
 
 body {    font-family: 'Montserrat', sans-serif;    margin: 0px}
 
-#product-overview {    background: url("https://upload.wikimedia.org/wikipedia/commons/e/ed/Katrina_Jade.jpg");    height: 500px;   }
+#product-overview {    background: url("freedom.jpg");    height: 500px;   }
 
-.section-title {    color: #2ddf5c;}
+.section-title {    color: #2ddf5c; text-align: center; margin-top: 40px;}
 
 #product-overview h1 {    color: white;    font-family: 'Anton', sans-serif;}
 
@@ -32,6 +32,36 @@ body {    font-family: 'Montserrat', sans-serif;    margin: 0px}
 .main-nav__item-btn1 a:hover,
 .main-nav__item-btn1 a:active{   border : #ff1b68 2px solid; background: rgb(52, 168, 168) }
 
+/* Style Plan - articel tags in second section*/
+.plan {
+    background: #d5ffdc;
+    text-align: center;
+    padding: 16px;
+    margin: 8px;
+    display: inline-block;
+    width: 30%;
+    vertical-align: middle;
+}
+
+/* override properties for recommended plan - different color and bkgrnd. */
+.plan--highlighted {
+    background: #19b84c;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgba(100, 219, 240, 0.5);
+}
+
+/* remove bullets*/
+.plan__features {    list-style: none;    margin: 0;    padding: 0;}
+
+/* Add up down padding between plan feature*/
+.plan__feature {    margin: 8px 0;}  
+
+/* style recommended badge.*/
+.plan__annotation {
+    background: white;    color: #19b84c;    padding: 8px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
 
 /*  ---------------------------------------------------------------------temp -------------------
 1. height and width, content-model,etc

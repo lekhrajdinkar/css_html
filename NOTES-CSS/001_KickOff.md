@@ -25,6 +25,9 @@
 ## other
 1. Add google font ->  Add URL and use it font-family.
 2. id serves 2 purpose - as fragment and as selector to apply style.
+3. Good preactice to check browser support for any property.
+- MZN doc
+- CAN I USE
 
 ## Summary:
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/summary.JPG)

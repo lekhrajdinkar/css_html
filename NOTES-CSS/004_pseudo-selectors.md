@@ -8,6 +8,7 @@
 #### pseudo-classes 
 1. :`hover`
 2. :`active`
+3. :`not( selector)`
 
 #### pseudo-elements
 2. ::`after`
