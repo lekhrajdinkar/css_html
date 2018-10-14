@@ -22,7 +22,11 @@ file:///C:/Users/lekhrajdinkar/Documents/GitHub/css_html/proj-2/index.html
 
 ### C. Presenting core feature
 1. Added core feature html.
-2. style title.
+2. style title
+3. Added circle to add image
+
+### D. Footer
+1. 
 
 ***
 ```
