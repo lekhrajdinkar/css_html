@@ -2,7 +2,7 @@
 [CSS - developer.mozilla.org](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 1. html defines content, CSS defines styling - provide better look and interactive.
-2. css Rule = selector (what to style) +  declaration (how to style)
+2. css styling **Rule** = **selector** (what to style) +  **declaration** (how to style)
 3. case insensitive. 
 4. properties(color,margin,etc) with shorthand:
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/sh1.JPG) 

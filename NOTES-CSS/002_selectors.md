@@ -17,7 +17,13 @@
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/003.jpg)
 
 ***
-
+## Grouping rule:
+```
+selector1,selector1 {
+  //common declaration
+}
+```
+***
 ## Specifity
 1. scenario : 
 ```

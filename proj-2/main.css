@@ -16,6 +16,10 @@ body {    font-family: 'Montserrat', sans-serif;    margin: 0px}
 
 .main-nav__item {  display: inline-block; padding:0px 16px; }
 
+.main-nav__item a:active,
+.main-nav__item a:hover
+ {  color: azure }
+
 .main-nav__items {    list-style: none;  }
 
 .main-nav__brand {    font-size: 22px; font-weight: bold ; vertical-align: middle;}
