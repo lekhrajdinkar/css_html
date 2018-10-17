@@ -30,26 +30,41 @@
 ### A. Fixed
 - `positioning context` :  viewport.
 
+eg: add fixed navbar and add background image
+
 1.  create stable nav bar:
-- main-header { position:fixed, width:100%, box-sizing:border-boxing, margin : 10px }
-- top:0, left:0, right: 0 --> base is viewport.
+```
+main-header { position:fixed, width:100%, box-sizing:border-boxing, margin : 10px ; top:0 ; left:0  }
+
+// top:0, left:0  --> base is viewport.
+```
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/4.JPG)
 
 2. Adding image in background behind the content.
-- case1: header tag > image tag
-- note : both are fixed position
-![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/5.JPG)
-- Case 2 :opposite order : image > header
-![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/6.JPG)
-
-- `fixed` will always come over `static`. eg: keep `div image` (fixed) first then `.packages` (all three anchor) (static) --> image will shown.
-
-> #### Z-index:
-> - defaulr value is auto, equal to 0.
-> - div image is 0. > make it -1.
 ```
 .background {
-    background: url("../images/plans-background.jpg");    width: 100%;    height: 100%;    position: fixed;    
+    position: fixed; background: url("../images/plans-background.jpg");   
+    width: 100%;    height: 100%;        
+}
+```
+Image will come over document flow element because Z-index is not defined. default value is auto, equal to 0.
+
+**case 1:** navBar div  > image div 
+- image will lie on top of navbar ( _note : both are fixed position with z-index as auto_ )
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/5.JPG)
+
+**Case 2**: opposite order : image div > navBar div  
+- navbar will lie on top of img  ( _note : both are fixed position with z-index as auto_ )
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/6.JPG)
+
+- Make navbar as static, then img will come, because: `fixed` will always come over `static`. 
+
+set z-index in above cases to change above default behaviour as per need.
+
+```
+.background {
+    position: fixed;  background: url("../images/plans-background.jpg");    
+    width: 100%;    height: 100%;       
     z-index: -1;
 }
 ```
