@@ -32,5 +32,15 @@
 - top:0, left:0, right: 0 --> base is viewport.
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/4.JPG)
 
+2. Adding image in background behind the content.
+- header tag > image tag
+note : both are fixed position
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/5.JPG)
+- opposite order : image > header
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/6.JPG)
+
+- fixed will over static : keep image (fixed) first then  all three anchor (static) --> image will shown.
+
+
 
 

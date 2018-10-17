@@ -26,7 +26,10 @@ file:///C:/Users/lekhrajdinkar/Documents/GitHub/css_html/proj-2/index.html
 3. Added circle to add image
 
 ### D. Footer
-1. 
+
+### E. Packages option
+1. Adding background image behind content.
+2.  
 
 ***
 ```
