@@ -42,8 +42,8 @@
 - fixed will always come over static. eg: keep `div image` (fixed) first then `.packages` (all three anchor) (static) --> image will shown.
 
 > #### Z-index:
-- defaulr value is auto, equal to 0.
-- div image is 0. > make it -1.
+> - defaulr value is auto, equal to 0.
+> - div image is 0. > make it -1.
 ```
 .background {
     background: url("../images/plans-background.jpg");    width: 100%;    height: 100%;    position: fixed;    
