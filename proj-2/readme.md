@@ -29,7 +29,7 @@ file:///C:/Users/lekhrajdinkar/Documents/GitHub/css_html/proj-2/index.html
 
 ### E. Packages option
 1. Adding background image behind content.
-2.  
+2. Adding badge. 
 
 ***
 ```

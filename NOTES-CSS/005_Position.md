@@ -21,12 +21,15 @@
 3. Change the position, but how ? 
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/3.JPG)
 
-- `positioning context` : eg: top : 30 --> 30px from current pos of elememt(default), or from view port, or from html tag, or from body, or from it parent, etc ?
+- `positioning context` : eg: [top : 30] --> 30px from current pos of elememt, or from view port, or from html tag, or from body, or from it parent, etc ? 
+- if top,left,etc not been defined then value it does not mean its 0. element will take position as per flow. 
 - z- index, top, left,etc would work only for non-static value.
 
 ***
 
 ### A. Fixed
+- `positioning context` :  viewport.
+
 1.  create stable nav bar:
 - main-header { position:fixed, width:100%, box-sizing:border-boxing, margin : 10px }
 - top:0, left:0, right: 0 --> base is viewport.
@@ -39,7 +42,7 @@
 - Case 2 :opposite order : image > header
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/6.JPG)
 
-- fixed will always come over static. eg: keep `div image` (fixed) first then `.packages` (all three anchor) (static) --> image will shown.
+- `fixed` will always come over `static`. eg: keep `div image` (fixed) first then `.packages` (all three anchor) (static) --> image will shown.
 
 > #### Z-index:
 > - defaulr value is auto, equal to 0.
@@ -52,7 +55,38 @@
 ```
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/7.JPG)
 
+### B.Absolute 
+`positioning context` :  
+- case 1: if no parent and ansector is dedined as non-static position --> html
+- case 2: if parent is marked as non-static position then closest parent would be position context.
 
+eg: Adding badge.
 
+html:
+```
+<a class ="package"> //parent
+    <h1 class="package__badge">RECOMMENDED</h1> //child
+</a>
+```
+Css:
+```
+.package__badge{    position: absolute; margin: 10px; top:70px; left: 400px;}
 
+.package { position:static } //case 1
 
+```
+position context is html
+
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/9.JPG)
+scroll up and see:
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/10.JPG)
+
+next change it 
+```
+.package { position : fixed/absolute/relative} //case 2
+// note : relative wont break appl here.
+
+```
+
+### B. Relative 
+`positioning context` : 
