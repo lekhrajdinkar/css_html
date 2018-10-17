@@ -107,7 +107,14 @@ next change it
 .package { position : fixed/absolute/relative} //case 2
 // note : relative wont break appl here.
 
+.package__badge{
+    position: absolute; margin: 16px; right: 0 ; top: 0;
+    font-size: 12px; padding: 8px; background: #ff5454
+// right: 0 ; top: 0 relative to parent .package
+}
+
 ```
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/12.JPG)
 ***
 
 ### B. Relative 

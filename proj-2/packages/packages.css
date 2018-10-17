@@ -15,7 +15,8 @@ main {
     position: relative;     
 }
 .package__badge{
-    position: absolute; margin: 10px; top:70px; left: 400px;
+    position: absolute; margin: 16px; right: 0 ; top: 0;
+    font-size: 12px; padding: 8px; background: #ff5454
 }
 .package:hover,
 .package:active {
