@@ -21,15 +21,15 @@
 3. Change the position, but how ? 
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/3.JPG)
 
-- `positioning context` : eg: top : 30 --> 30px from current pos of elememt or from view port, or from html tag, or from body, or from it parent, etc ?
+- `positioning context` : eg: top : 30 --> 30px from current pos of elememt(default), or from view port, or from html tag, or from body, or from it parent, etc ?
 - z- index, top, left,etc would work only for non-static value.
 
 ***
 
 ### A. Fixed
 1.  create stable nav bar:
-- position:fixed, width:100%, box-sizing:border-boxing
-- top:0, left:0, right: 0
+- main-header { position:fixed, width:100%, box-sizing:border-boxing, margin : 10px }
+- top:0, left:0, right: 0 --> base is viewport.
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/4.JPG)
 
 

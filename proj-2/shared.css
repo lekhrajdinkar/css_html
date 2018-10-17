@@ -2,12 +2,12 @@
 
 body {    font-family: 'Montserrat', sans-serif;    margin: 0px}
 
+html{margin: 10px}
+
 /* ----------------------------------------header --------------------------------------------------------- */
-.main-header > div{display: inline-block;}
+.main-header {    background: #2ddf5c;    width:100%; padding : 10px 0px; position: fixed; top:30}
 
 .main-nav {display: inline-block; text-align: right; width: calc(100% - 100px) ; vertical-align: middle}
-
-.main-header {    background: #2ddf5c;    width:100%; padding : 10px 0px}
 
 .main-nav__item {  display: inline-block; padding:0px 16px; }
 
