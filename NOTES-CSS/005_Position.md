@@ -33,13 +33,25 @@
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/4.JPG)
 
 2. Adding image in background behind the content.
-- header tag > image tag
-note : both are fixed position
+- case1: header tag > image tag
+- note : both are fixed position
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/5.JPG)
-- opposite order : image > header
+- Case 2 :opposite order : image > header
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/6.JPG)
 
-- fixed will over static : keep image (fixed) first then  all three anchor (static) --> image will shown.
+- fixed will always come over static. eg: keep `div image` (fixed) first then `.packages` (all three anchor) (static) --> image will shown.
+
+> #### Z-index:
+- defaulr value is auto, equal to 0.
+- div image is 0. > make it -1.
+```
+.background {
+    background: url("../images/plans-background.jpg");    width: 100%;    height: 100%;    position: fixed;    
+    z-index: -1;
+}
+```
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/7.JPG)
+
 
 
 
