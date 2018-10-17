@@ -49,7 +49,7 @@ main-header { position:fixed, width:100%, box-sizing:border-boxing, margin : 10p
 ```
 Image will come over document flow element because Z-index is not defined. default value is auto, equal to 0.
 
-**case 1:** navBar div  > image div 
+**case 1:** order of elememt : navBar div  > image div 
 - image will lie on top of navbar ( _note : both are fixed position with z-index as auto_ )
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/5.JPG)
 
@@ -57,10 +57,12 @@ Image will come over document flow element because Z-index is not defined. defau
 - navbar will lie on top of img  ( _note : both are fixed position with z-index as auto_ )
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/6.JPG)
 
-- Make navbar as static, then img will come, because: `fixed` will always come over `static`. 
+**Case 3**:
+- Define navbar as static position in case2 eg, then img will come, _because: `fixed` will always come over `static`._ 
 
 set z-index in above cases to change above default behaviour as per need.
 
+Setting z-index to -1 to add image in bkgrnd:
 ```
 .background {
     position: fixed;  background: url("../images/plans-background.jpg");    
@@ -74,8 +76,8 @@ set z-index in above cases to change above default behaviour as per need.
 
 ### B.Absolute 
 `positioning context` :  
-- case 1: if no parent and ansector is dedined as non-static position --> html
-- case 2: if parent is marked as non-static position then closest parent would be position context.
+- **case 1:** if no parent/ansector is dedined with non-static position --> `html`
+- **case 2:** if parent is marked as non-static position then `closest parent` would be position context.
 
 eg: Adding badge
 
