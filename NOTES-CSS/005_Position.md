@@ -55,12 +55,16 @@
 ```
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/7.JPG)
 
+***
+
 ### B.Absolute 
 `positioning context` :  
 - case 1: if no parent and ansector is dedined as non-static position --> html
 - case 2: if parent is marked as non-static position then closest parent would be position context.
 
-eg: Adding badge.
+eg: Adding badge
+
+_note: COuld easy add badg in document flow. try to add it using non static position_
 
 html:
 ```
@@ -87,6 +91,7 @@ next change it
 // note : relative wont break appl here.
 
 ```
+***
 
 ### B. Relative 
 `positioning context` : 
