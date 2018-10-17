@@ -117,5 +117,25 @@ next change it
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/12.JPG)
 ***
 
-### B. Relative 
-`positioning context` : 
+### C. Relative 
+fixed/absolute positioned element gets out of document flow and get arranged relative to view port, html or closest ancestor/parent. next is relative positioned element.
+
+`positioning context` : element itself.
+
+- it does not take out element out of document flow.
+- using top,left,ect can shift elemet out of its parent. (it must not be done.)
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/13.JPG)
+
+- `overflow : hidden`
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/position/14.JPG)
+
+Note : if adding `overflow : hidden` in `body` then also add it in `html`
+***
+
+### D. Sticky
+hybrid : fixed and relative
+
+***
+
+#### stacking context
+- 
