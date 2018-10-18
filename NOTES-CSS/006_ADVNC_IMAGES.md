@@ -18,10 +18,10 @@
 ```
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img/1.JPG)
 
-**by %**
-
 2. `background-size: 300px 200px;` --> define both length and width --> this will distort img
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img/2.JPG)
+
+**by %**
 
 3 `background-size: 50%` --> width as 50% of container/parent.
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img/3.JPG)
@@ -34,10 +34,17 @@
 
 7. `background-size: 100%` --> width as 100% of container/parent amd height will be as per ratio, but it will cropped from bottom to main aspect ratio.
 
-7.1. `background-size: 100% 100%` --> width and lenght as 100% of container/parent --> ii wont crop and fit image (distort)
+7.1. `background-size: 100% 100%` --> width and lenght as 100% of container/parent --> it wont get crop and fit image (distort)
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img/4.JPG)
 
+**contain and cover**
+
+8. `background-size: Contain` - it ensures full image is put in container.
+
+9. `background-size : Cover` - it ensures full image is put in container + zoom in image if there is white space around + it also crops img if needed.
+
 ***
+
 
 
 
