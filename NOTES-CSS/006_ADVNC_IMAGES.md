@@ -1,6 +1,7 @@
-### Images and Background
+## Images and Background
 
-#### 1. background property.
+### background property.
+#### A. background-size
 - shorthand : background: url("freedom.jpg"); 
 - Actual : background-image:  url("freedom.jpg"); 
 
@@ -37,13 +38,17 @@
 7.1. `background-size: 100% 100%` --> width and lenght as 100% of container/parent --> it wont get crop and fit image (distort)
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img/4.JPG)
 
-**contain and cover**
+**predifined setting : contain and cover**
 
 8. `background-size: Contain` - it ensures full image is put in container.
 
 9. `background-size : Cover` - it ensures full image is put in container + zoom in image if there is white space around + it also crops img if needed.
 
 ***
+
+#### A. background-position
+
+
 
 
 
