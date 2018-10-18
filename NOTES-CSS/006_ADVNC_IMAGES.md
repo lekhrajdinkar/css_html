@@ -48,6 +48,22 @@
 
 #### A. background-position
 
+**by PX**
+
+1. `background-position : 20px` (x-axis) --> shift from left
+
+2. `background-position : 20px 30px` (x-axis, y-axis) --> shift from left  and from top.
+
+**by %**
+
+3.1 `background-position : 0% 20%` (x-axis, y-axis)  --> crop 20% from top. 
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img/22.JPG)
+
+3.2 `background-position : 0% 50%` (x-axis, y-axis)  --> crop equally from top and bottom 
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img/33.JPG)
+
+3.3 `background-position : 0% 100%` (x-axis, y-axis)  --> crop from top  and show complete bottom.
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img/11.JPG)
 
 
 
