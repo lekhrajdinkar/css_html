@@ -1,8 +1,10 @@
 ### Images and Background
 
 #### 1. background property.
-- shorthand : background  url("freedom.jpg"); 
+- shorthand : background: url("freedom.jpg"); 
 - Actual : background-image:  url("freedom.jpg"); 
+
+**by PX**
 
 1. `background-size: 200px;` 
 - it will repeat image, `width` - 200px , `length` - as per aspect ratio.
@@ -15,6 +17,8 @@
 }
 ```
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img/1.JPG)
+
+**by %**
 
 2. `background-size: 300px 200px;` --> define both length and width --> this will distort img
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img/2.JPG)
