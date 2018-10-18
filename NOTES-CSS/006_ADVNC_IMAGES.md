@@ -4,6 +4,7 @@
 #### A. background-size
 - shorthand : background: url("freedom.jpg"); 
 - Actual : background-image:  url("freedom.jpg"); 
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img/00.JPG)
 
 **by PX**
 
@@ -46,7 +47,7 @@
 
 ***
 
-#### A. background-position
+#### B. background-position
 
 **by PX**
 
@@ -65,16 +66,25 @@
 3.3 `background-position : 0% 100%` (x-axis, y-axis)  --> crop from top  and show complete bottom.
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img/11.JPG)
 
-**mix left right top bottom**
+**left right top bottom**
 
 4. `background-position : left top ` --> show left and top, crop rest accordingly.
 5. `background-position : right bottom` --> show ...
 
 **mix**
 
-4. `background-position : left 20% top 30%`  --> show left and top, crop rest accordingly. crop 30% from top. crop 20% from left.
+5. `background-position : left 20% top 30%`  --> show left and top, crop rest accordingly. crop 30% from top. crop 20% from left.
+***
 
+L-99
 
+### C. background-origin
+***
+
+### D. background-clip
+***
+
+### E. background-attachment
 
 
 
