@@ -1,6 +1,6 @@
 ## Images and Background - part 2
 
-### A. Add Logo
+### A. Add Logo - to understand below concept.
 
 ```
 <a class="container">
@@ -14,11 +14,11 @@
 
 1. container element for img is anchor (inline type) --> set container dimension to 50px 50px, but image is 200*200px, still full pixel image will shown
 
-2. Make container `inline-block`, ythen it image size will reduce to 50px.
+2. Make container `inline-block`, then image size will reduce to 50px.
 
 ***
 
-### B. Adding customer images
+### Adding customer images
 
 ```
 image container style:
@@ -46,21 +46,49 @@ image style:
 3. Add shadow
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/03.jpg) 
 
+final:
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/13.jpg) 
+
 *** 
 
-### LINEAR GRADIENT
+### B. LINEAR GRADIENT
 `background-color: linear-gradient()` //css functions
 
-- linear-gradient(red blue rgba()...) // can use multiple colors in any of 3 format.
-- linear-gradient( 45deg red blue ...) //rotate ny amgle.
-- linear-gradient( 180deg red transparent)
+- `linear-gradient(red, blue, rgba()...)` // can use multiple colors in any of 3 format.
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/11.jpg) 
+
+- `linear-gradient( 45deg, red, blue ...)` //rotate ny amgle.
+
+- `linear-gradient( 180deg, red, transparent)`
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/04.jpg) 
-- linear-gradient( 180deg red 70% blue 30% )
+
+- `linear-gradient( 180deg, red, 70%, blue, 30% )`
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/05.jpg) 
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/06.jpg) 
 
 ***
 
-### RADIAL GRADIENT
+### C. RADIAL GRADIENT
+
+`background-color: radial-gradient()` //css functions
+
+- radial-gradient(red, blue, rgba()...) // default shape is  eclipse.
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/12.jpg) 
+
+- radial-gradient(circle, red, blue, geen...)
+
+- radial-gradient(circle at top, red, blue, geen...)
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/07.jpg) 
+
+- radial-gradient(circle at left top, red, blue, geen...)
+
+- radial-gradient(circle at 20% 50%, red, blue, geen...)
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/08.jpg) 
+
+- radial-gradient(circle 20px at top, red, blue, geen...) // size for cirlce is 20px
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/09.jpg) 
+
+- radial-gradient(eclipse 20px 30px at top, red, blue, geen...) // size for eclipse is 20px
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/10.jpg) 
 
 ***
