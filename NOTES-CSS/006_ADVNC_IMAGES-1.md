@@ -3,6 +3,10 @@
 ### background property.
 #### A. background-size
 - shorthand : background: url("freedom.jpg"); 
+```
+background : url() left 20% top 30% / cover origin clip attachment
+
+```
 - Actual : background-image:  url("freedom.jpg"); 
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img/00.JPG)
 
@@ -80,6 +84,14 @@ L-99
 
 ### C. background-origin
 ***
+conceptually its like box-sizing. (for image)
+
+Property values: 
+1. content-box(default), 
+2. border-box, 
+3. padding box.
+
+`Note` : add dashed `red 20px border`  around image container and inspect the above values then.
 
 ### D. background-clip
 ***
