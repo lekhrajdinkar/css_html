@@ -55,9 +55,9 @@ final:
 `background-color: linear-gradient()` //css functions
 
 - `linear-gradient(red, blue, rgba()...)` // can use multiple colors in any of 3 format.
-![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/11.jpg) 
 
-- `linear-gradient( 45deg, red, blue ...)` //rotate ny amgle.
+- `linear-gradient( 45deg, red, blue ...)` //rotate by angle.
+![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/11.jpg) 
 
 - `linear-gradient( 180deg, red, transparent)`
 ![img](https://github.com/lekhrajdinkar/css_html/blob/master/NOTES-CSS/assets/img2/04.jpg) 
